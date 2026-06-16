@@ -21,9 +21,12 @@ def main():
     print("\n--- Sample Alerts ---")
     probs = model.predict(X_test[:10])
 
-    for p in probs:
+    """for p in probs:
         pred = int(p > 0.5)
-        generate_alert(pred, float(p))
+        generate_alert(pred, float(p))"""
+    for confidence in probs.flatten():
+        pred = int(confidence > 0.5)
+        generate_alert(pred, confidence)
 
 if __name__ == "__main__":
     main()
