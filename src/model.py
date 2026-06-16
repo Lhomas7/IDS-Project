@@ -22,12 +22,5 @@ def build_model(input_dim):
     return model
 
 
-"""
-#Now we will evaluate the model and report the metrics
-y_pred = (model.predict(X_test) > 0.5).astype("int32")
-
-print(classification_report(y_test, y_pred))
-print(confusion_matrix(y_test, y_pred))"""
-
 
 
