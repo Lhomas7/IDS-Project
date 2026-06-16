@@ -21,14 +21,8 @@ def build_model(input_dim):
 
     return model
 
-"""#then train the model on the data
-history = model.fit(
-    X_train, y_train,
-    epochs=10,
-    batch_size=32,
-    validation_split=0.2
-)
 
+"""
 #Now we will evaluate the model and report the metrics
 y_pred = (model.predict(X_test) > 0.5).astype("int32")
 
