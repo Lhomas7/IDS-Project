@@ -29,3 +29,4 @@ This project demonstrates the application of machine learning techniques to cybe
 
 # Commends
 The dataset was provided from the github repository at: https://github.com/jmnwong/NSL-KDD-Dataset.
+Lots of concepts and code help came from GeeksForGeeks and some help from ChatGPT.
